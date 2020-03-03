@@ -8,8 +8,8 @@ import "../style/index.scss";
 
 window.onload = function() {
   var pronoun = ["the", "our", "their", "his", "her"];
-  var adj = ["great", "big", "gigantic", "scary", "furry", "friendly"];
-  var noun = ["cat", "dog", "helper", "friend", "developer"];
+  var adj = ["great", "big", "gigantic", "scary", "invisible", "friendly"];
+  var noun = ["engineer", "man", "helper", "friend", "developer"];
 
   let emptyArray = [];
   for (let i in pronoun)
