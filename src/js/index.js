@@ -7,9 +7,9 @@ import "../assets/img/4geeks.ico";
 import "../style/index.scss";
 
 window.onload = function() {
-  var pronoun = ["the", "our", "their", "his", "her"];
-  var adj = ["great", "big", "gigantic", "scary", "invisible", "friendly"];
-  var noun = ["engineer", "man", "helper", "friend", "developer"];
+  let pronoun = ["the", "our", "their", "his", "her"];
+  let adj = ["great", "friendly", "gigantic", "scary", "invisible"];
+  let noun = ["engineer", "man", "helper", "friend", "developer"];
 
   let emptyArray = [];
   for (let i in pronoun)
