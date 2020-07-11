@@ -8,7 +8,7 @@ window.onload = function() {
   let pronoun = ["the", "our", "their", "his", "her"];
   let adj = ["great", "friendly", "gigantic", "scary", "invisible"];
   let noun = ["engineer", "man", "helper", "friend", "developer"];
-  let ext = [".com", ".net", ".edu", ".io", ".org"];
+  let ext = [".com", ".net", ".edu", ".io", ".org", ".int"];
 
   let emptyArray = [];
   for (let a in pronoun)
@@ -19,7 +19,9 @@ window.onload = function() {
             "http://www." + pronoun[a] + adj[b] + noun[c] + ext[d] + "<br>"
           );
 
-  console.log(emptyArray);
+  let emptyArrayJoined = emptyArray.join(" ");
+
+  console.log(emptyArrayJoined);
 
   document.querySelector(".domains").innerHTML = emptyArray;
 };
