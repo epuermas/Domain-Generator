@@ -17,6 +17,8 @@ window.onload = function() {
         emptyArray.push(
           "http://www." + pronoun[i] + adj[b] + noun[c] + ".com <br>"
         );
+
   console.log(emptyArray);
+
   document.querySelector(".domains").innerHTML = emptyArray;
 };
