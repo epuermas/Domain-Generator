@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap.scss";
+
 .body {
   min-height: 100%;
 }
@@ -13,13 +14,15 @@
   box-shadow: 5px 5px 10px grey;
   margin-bottom: 3%;
 }
+
 .domains-header {
   position: absolute;
   padding-bottom: 25px;
   margin-bottom: 50px;
 }
+
 .footer {
   position: absolute;
   text-align: center;
-  top: 6%;
+  top: 55px;
 }
