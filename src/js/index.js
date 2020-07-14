@@ -4,7 +4,7 @@ import "../assets/img/4geeks.ico";
 import "../style/index.scss";
 
 window.onload = function() {
-  let pronoun = ["the", "our", "their", "his", "her"];
+  let pronoun = ["the", "our", "their", "his", "this", "her"];
   let adj = ["great", "friendly", "gigantic", "scary", "invisible"];
   let noun = ["engineer", "man", "helper", "friend", "developer"];
   let ext = [".com", ".net", ".edu", ".io", ".org"];
