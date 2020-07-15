@@ -14,15 +14,10 @@ window.onload = function() {
     for (let b in adj)
       for (let c in noun)
         for (let d in ext)
-          emptyArray.push(
-            "http://www." + pronoun[a] + adj[b] + noun[c] + ext[d] + "<br>"
-          );
+          emptyArray +=
+            "http://www." + pronoun[a] + adj[b] + noun[c] + ext[d] + "<br>";
 
-  function removeCommas() {
-    emptyArray.join(" ");
-  }
-
-  console.log(removeCommas);
+  console.log(emptyArray);
 
   document.querySelector(".domains").innerHTML = emptyArray;
 };
