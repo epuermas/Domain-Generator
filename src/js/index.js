@@ -8,7 +8,7 @@ window.onload = function() {
   let pronoun = ["the", "our", "their", "his", "this", "her"];
   let adj = ["great", "friendly", "gigantic", "scary", "invisible"];
   let noun = ["engineer", "man", "helper", "friend", "developer"];
-  let ext = [".com", ".net", ".edu", ".io", ".org"];
+  let ext = [".com", ".net", ".edu", ".io", ".org", ".au"];
 
   /* Create new empty array and loop all possible names */
   let emptyArray = [];
